@@ -1,0 +1,40 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+// import 'bootstrap/dist/css/bootstrap.css';
+
+// import './global.css';
+// import App from './components/App';
+
+// const container = document.getElementById('app');
+
+// ReactDOM.render(<App />, container);
+
+
+/**********************************************
+Para hacer React es necesario importar React y ReactDOM .
+React es el análogo de createElement .
+ReactDOM es el análogo de appendChild .
+
+ReactDOM.render Toma 2 argumnentos:
+ReactDOM.render(__qué__,__dónde__);
+
+El qué . Es qué queremos renderizar.
+El dónde . Es en dónde lo queremos renderizar.
+**********************************************************/
+//const jsx  = <h1>Hello, como</h1>
+//const element = React.createElement('a',{href:'https://platzi.com'},'Ir a platzi')
+//const element = React.createElement('a',{},`Hola soy ${name}`)
+//const sum = () => 3+3
+//const name = 'Aje'
+//const jsx = <h1>Hola soy, {sum()}</h1>
+
+const jsx = (
+    <div>
+        <h1>Hola, Soy Richard</h1>
+        <p>Soy un ingeniero</p>
+    </div>)
+
+const container = document.getElementById('app')
+ReactDOM.render(jsx,container)
+
+
