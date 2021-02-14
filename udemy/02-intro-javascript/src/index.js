@@ -1,17 +1,16 @@
+/// Template String
+
+const nombre = 'juan carlos'
+const apellido = 'Santamaria'
+
+//const nombreCopleto = nombre + ' ' + apellido
+const nombreCopleto = `${nombre} ${apellido}`
 
 
+console.log(nombreCopleto)
 
-const nombre = 'hola mudno'
-
-let valordado = 5
-
-console.log(nombre,valordado)
-
-if (true){
-    let valordado = 4
-    console.log(valordado)
+function getSaludo(nombre) {
+    return `Hola Mundo ${nombre}`
 }
 
-console.log(valordado)
-
-
+console.log(`Este es un texto ${ getSaludo(nombre) }`)
