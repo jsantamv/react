@@ -4,6 +4,6 @@ import CounterApp from './components/CounterApp'
 import './css/index.css'
 
 const divRoot = document.querySelector('#root')
-reactDom.render(<CounterApp value={1123}/>, divRoot)
+reactDom.render(<CounterApp value={12}/>, divRoot)
 
 
