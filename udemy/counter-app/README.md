@@ -6,3 +6,7 @@ Primera aplicacion con pruebas en react
 
 ## Shorcuts
 
+## Test JEST
+Para correr las pruebas debe de utilizar el comando 
+1. Abrir una nueva termianl
+2. npm run test
