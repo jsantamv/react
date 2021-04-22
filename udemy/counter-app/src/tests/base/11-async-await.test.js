@@ -7,8 +7,8 @@ describe('Pruebas Async con await', () => {
 
         const url = await getImagen();
         //console.log(url)
-        //expect(typeof url).toBe('string')
-        expect(url.includes('https://')).toBe(true)
+        expect(typeof url).toBe('string')
+        //expect(url.includes('https://')).toBe(true)
         
     })
 })
